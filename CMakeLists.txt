@@ -1,6 +1,6 @@
-cmake_minimum_required (VERSION 3.9)
-project (CreatePattern)
+cmake_minimum_required (VERSION 3.10)
 
-include_directories("${PROJECT_SOURCE_DIR}/include")
+project (DesignPattern)
 
-add_executable(CreatePattern main.cpp)
+add_subdirectory(Iterator)  # 迭代器模式
+add_subdirectory(Visitor)   # 访问者模式
