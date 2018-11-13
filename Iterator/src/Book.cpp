@@ -9,6 +9,6 @@ Book::Book(std::string Name) {
     name = std::move(Name);
 }
 
-std::string Book::getName() {
+std::string Book::GetName() {
     return name;
 }

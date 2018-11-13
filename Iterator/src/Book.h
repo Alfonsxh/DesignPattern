@@ -9,13 +9,14 @@
 
 #include <string>
 
+// 书类
 class Book {
 public:
     Book(std::string Name);
 
     ~Book() = default;
 
-    std::string getName();
+    std::string GetName();
 
 private:
     std::string name;

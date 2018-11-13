@@ -1,5 +1,5 @@
-aux_source_directory(. Srcs)
+aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/src sources)
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/)
-
-add_executable(Iterator ${Srcs})
+add_executable(Iterator
+        main.cpp
+        ${sources})

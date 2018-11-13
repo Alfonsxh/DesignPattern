@@ -1,8 +1,0 @@
-//
-// Created by alfons on 18-11-12.
-//
-
-#ifndef DESIGNPATTERN_AGGREGATE_H
-#define DESIGNPATTERN_AGGREGATE_H
-
-#endif //DESIGNPATTERN_AGGREGATE_H
